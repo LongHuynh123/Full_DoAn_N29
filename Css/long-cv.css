@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+
+}
+.clear{
+    clear: both;
+}
+
+#header{
+height: 46px;
+background-color: black ;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+#header .search-button{
+float: right;
+padding: 0 21px;
+}
+
+#header .search-icon{
+    font-size: 20px;
+    color: #ffff;
+    line-height: 46px;
+    
+    
+}
+#header .search-button:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+
+#nav{
+display: inline-block;
+}
+
+#nav, .subnav{
+    list-style-type: none;
+
+}
+
+#nav >li{
+    display:inline-block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav li{
+    
+    position: relative;
+}
+#nav>li>a{
+    color:aliceblue;
+    text-transform: uppercase;
+}
+
+#nav li a{
+  
+    text-decoration:none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav> li:hover> a{
+    color: black;
+    background-color:#cccc;
+}
+
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    
+    
+}
+#nav .subnav a{
+    color: black;
+    padding: 0 16px;
+}
+#nav .subnav> li:hover{
+    color: black;
+    background-color:#cccc;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+/* tieu de */
+.port-full{
+    background-color: white;
+    height: 640px;
+    
+}
+
+.bcr-cv{
+    
+    
+    background-color:violet;
+    width: 100%;
+    transform: translateY(40px);
+    float: left;
+    
+
+}
+
+.left-hd{
+   
+    position: absolute;
+    background-color:#FFE4E1;
+    width: 50%;
+    height: 600px;
+ 
+}
+.left-hd h1{
+    font-size: 80px;
+    text-align: end;
+    margin-right: 5px;
+   
+}
+.left-hd p{
+    text-align: end;
+    
+}
+.old-year{
+    font-size: 20px;
+    font-weight: 500;
+}
+.left-hd .old-year{
+margin-right: 198px;
+}
+.xinchao{
+    font-size: 100px;
+    margin-top: 20%;
+    float: right;
+    margin-top: 20%;
+    font-style: italic;
+}
+.right-hd{
+    position: absolute;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    width: 50%;
+    right: 0;
+    height: 600px;
+}
+.right-hd h1{
+    margin-left: 5px;
+    font-size: 80px;
+}
+.right-hd .year{
+    margin-left: 198px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.name{
+    float: left;
+    font-size: 100px;
+    margin-top: 20%;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.right-hd .job{
+    display: inline-block;
+    font-size: 30px;
+    text-align: end;
+    float: right;
+    margin-right: 100px;
+    
+}
+
+/* phan intro */
+.container-intro{
+    background-color: #FFE4E1;
+    padding-top: 40px;
+    height: 900px;
+}
+.information{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.intro{
+    right: 0%;
+    width: 70%;
+    text-align: center;
+}
+.hd-intro{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: right;
+}
+.text-intro {
+    
+    margin-top: 40px;
+    text-transform: uppercase;
+    line-height: 1.6;
+    text-align: justify;
+    width: 70%;
+    letter-spacing: 2px;
+    margin-left: 60%;
+    font-size: 20px;
+
+}
+
+.text-intro-2{
+    margin-top: 10px;
+    text-transform: uppercase;
+    line-height: 1.6;
+    text-align: justify;
+    width: 70%;
+    letter-spacing: 2px;
+    margin-left: 60%;
+    font-size: 20px;
+
+}
+    /* ảnh  */
+.img-intro{
+    background-color: #DCDCDC;
+    margin-left: 50px;
+    width: 360px;
+    height: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-bottom: 10px solid rgba(160,160,160,0.6);
+    border-right:10px solid rgba(160,160,160,0.6) ;
+    border-top: 10px solid rgba(160,160,160,0.6) ;;
+}
+.img{
+    border-radius: 10px;
+    width: 333px;
+    height: 466px;
+}
+/* Tên */
+.full-name{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.ti-calendar{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.birthday{
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.ti-mobile{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.phone{
+    text-align: start;
+    margin-top: 10px;
+    font-size: 20px;
+    
+    
+}
+.ti-email{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.mail{
+    text-align: start;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.form-info{
+    margin-left: 70px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Css/contact.css">
+    <link rel="stylesheet" href="/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+</head>
+<body>
+    <div id="header">
+        
+        <ul id="nav">
+            <a href="/index1.html"><span class="material-symbols-outlined">
+                arrow_back_ios
+                </span></a>
+            
+        </ul>
+    </div>
+    
+
+<div class="box-3">
+    <form action="" name="dataform3">
+        <h1 class="tiude-3">Contact form </h1>
+
+    <div class="row-p3">
+        <div class="col-half">
+            <div class="col-p3">
+                <h3 class="infor">Thông tin </h3>
+               <p><i class="ti-location-pin"></i>130 Đường số 9, quận Gò Vấp, TP.HCM</p>
+               <p><i class="ti-email"></i>Longhuynh2793@gmail.com</p>
+               <p><i class="ti-mobile"></i>0912417238</p>
+               
+            </div>
+
+            <div class="col-p3">
+                <h3 class="infor-to-me">Hãy liên lạc với chúng tôi!!</h3>
+                <input class="input-grp3" type="text" placeholder="Họ và tên " name="ten">
+                <input class="input-grp3" type="email" placeholder="Địa chỉ email " name="mail3">
+                <input class="input-grp3" type="text" placeholder="Tiêu đề bài viết " name="title">
+                <input class="input-grp3" type="text" placeholder="Số điện thoại" name="phone">
+                <textarea name="contact" id="contact-p3" cols="30" rows="10"></textarea>
+                <button onclick="buy()" type="button" class="btn-b3" > Gửi thông tin </button>
+            </div>
+            
+        
+
+
+
+
+
+        </div>
+        
+
+
+    </div>
+
+
+
+
+    </form>
+</div>
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+    function buy(){
+     swal({
+     title: "Gửi thành công !",
+     text: "Cảm ơn quý khách!",
+     icon: "success",
+     button: "Đồng ý!",
+   });
+    }
+</script>
+
+
+
+</body>
+
+</html>

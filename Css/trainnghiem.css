@@ -1,0 +1,344 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Niconne&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #E0FFFF;
+    background-position: center;
+    background-size: cover;
+}
+.name{
+    
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #4c4c4c;
+    color: #E0FFFF;
+    padding: 10px;
+    width: 1030px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+    
+}
+
+.sidebar{
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background:rgba(255, 255, 255,0.2);
+    backdrop-filter:blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border-right: 1px solid rgba(255, 255, 255,0.2);
+    transition: width 0.3s ease;
+}
+.sidebar:hover{
+    width: 260px;
+}
+
+.sidebar .logo{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 15px;
+}
+
+.logo img{
+    width: 73px;
+    
+}
+.logoh2{
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 10px;
+    display: none;
+}
+.sidebar:hover .logo{
+    display: block;
+}
+.link li{
+    display: flex;
+    align-items: center;
+}
+.link li:hover{
+    background: white;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    display: none;
+    cursor: pointer;
+}
+.sidebar:hover .link li a{
+display: block;
+}
+.link hr{
+    margin: 10px 8px;
+    border-color: #4c4c4c;4
+}
+.sidebar:hover .link br {
+   border-color: transparent;
+}
+
+.sidebar .link h4{
+    font-weight: 600;
+    margin-top: 10px;
+    display: none;
+
+}
+.sidebar:hover .link h4{
+    display: block;
+}
+.link li span {
+    padding: 12px 15px;
+}
+    /* tour-form */
+.tour-form{
+   width: 88%;
+   float: right;
+   height: 600px;
+    padding-top: 80px;
+   font-family:'Times New Roman', Times, serif;
+   display: block;
+}
+.container-tour{
+    height: 270vh;
+}
+.container-ticket{
+    border-radius:10px ;
+    text-align: center;
+    float: left;
+    margin-left: 60px;
+    background-color:white;
+    height: 500px;
+    box-sizing: content-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.container-ticket img{
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+.container-ticket h4{
+margin-top: 10px;
+text-align:center;
+width: 300px;
+}
+.container-ticket h4 a{
+    text-decoration: none;
+    color: black;
+}
+.container-ticket button{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.book{
+    background-color: #9ACD32;
+    color: #F5F5DC;
+}
+.book:hover{
+    background-color:#DCDCDC;
+    color: black;
+    opacity:0.9;
+    transform: scale(0.9);
+}
+/* sale */
+.sale-container{
+    width: 88%;
+    height: 100vh;
+    float: right;
+    font-family:'Times New Roman', Times, serif;
+    background-color:#E0FFFF;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: block;
+}
+.sale-container h1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #4c4c4c;
+    color: #E0FFFF;
+    padding: 10px;
+    width: 1030px;
+    float: right;
+    margin-right: 250px;
+}
+.container-item{
+    margin-top: 30px;
+    border-radius:10px ;
+    text-align: center;
+    float: left;
+    margin-left: 60px;
+    background-color:#4c4c4c;
+    height: 450px;
+    box-sizing: content-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.container-item img{
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+    border-bottom: 3px solid rgba(0, 0, 0, 0.6) ;
+}
+
+.container-item h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #DCDCDC;
+}
+.container-item h4{
+    color: #DCDCDC;
+   
+    
+}
+
+.container-item button{
+    margin-top: 15px;
+    width: 120px;
+    padding: 10px 10px;
+   
+}
+.container-item .buy-now{
+    background-color: #FF0000;
+    border: none;
+    width: 120px;
+    padding-bottom: 10px;
+
+    
+    
+}
+.container-item .buy-now a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.container-item .buy-now:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+.container-item .cart{
+    background-color: #20B2AA;
+    border: none;
+    margin-right: 10px;
+    width: 140px;
+    padding-bottom: 10px;
+}
+.container-item .cart a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+.container-item .cart span{
+    color: white;
+    float: left;
+    margin-bottom: -7px;
+}
+
+
+.container-item .cart:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+.contact-container{
+    background-color:#E0FFFF;
+    height:800px;
+    margin-top: 140vh;
+    align-items: center;
+    text-align: center;
+    
+}
+.contact-container button{
+    font-size: 25px;
+    padding: 5px 25px 5px;
+    background-color: #9ACD32;
+    border: none;
+    color: white;
+}
+.contact-container button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 64px 34px;
+}
+#footer .socials-list{
+    font-size: 24px;
+    padding: 20px;
+}
+
+#footer .socials-list a{
+    color: #000;
+    opacity: 0.7;
+    text-decoration: none;
+}
+#footer .socials-list a:hover{
+    opacity: 0.5;
+}
+#footer .copyright a{
+   font-size: 20px;
+    color: #000;
+}
+#footer .copyright a:hover{
+opacity: 0.5;
+}
+.contact-container h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 100px;
+    
+}
+.contact-container{
+background-color:#E0FFFF;
+height:150px
+}
+
+

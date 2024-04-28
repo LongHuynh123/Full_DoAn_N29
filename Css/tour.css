@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Niconne&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    
+}
+.row>*{
+    padding: 0;
+}
+
+
+    
+
+
+body{
+    background-color: #D8DFF0;
+}
+.clear{
+    clear: both;
+}
+
+.sidebar{
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background:rgba(255, 255, 255,0.2);
+    backdrop-filter:blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border-right: 1px solid rgba(255, 255, 255,0.2);
+    transition: width 0.3s ease;
+    z-index: 1;
+   
+}
+.sidebar:hover{
+    width: 200px;
+}
+
+
+
+.logo img{
+    width: 73px;
+    
+}
+.logoh2{
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 10px;
+    display: none;
+}
+.sidebar:hover .logo{
+    display: block;
+}
+.link li{
+    display: flex;
+    align-items: center;
+}
+.link li:hover{
+    background: white;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    display: none;
+    cursor: pointer;
+}
+.sidebar:hover .link li a{
+display: block;
+}
+.link hr{
+    margin: 10px 8px;
+    border-color: #4c4c4c;4
+}
+.sidebar:hover .link br {
+   border-color: transparent;
+}
+
+.sidebar .link h4{
+    font-weight: 600;
+    margin-top: 10px;
+    display: none;
+
+}
+.sidebar:hover .link h4{
+    display: block;
+}
+.link li span {
+    padding: 12px 15px;
+}
+    /* End-sliderbar */
+.video-container video{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8 ; 
+}
+
+.video-container{
+    width: 100%;
+    height:100vh;
+    position: relative;
+}
+
+.Name{
+    position: absolute;
+    transform: translateY(-148%);
+    text-align: center;
+    font-size: 70px;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    opacity: 0.2;
+    
+    
+}
+.Name h1{
+    color: aliceblue;
+    transform: translateY(-55%);
+    width: 100%;
+    cursor: pointer;
+    font-size: 200px;
+    
+    
+}
+.Name h1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* blog */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-place{
+    max-width: 1300px;
+    /* margin: auto; */
+}
+.place-item{
+    width: 30%;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    box-sizing: content-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-top: 100px;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.place-item:hover .text-place{
+    transform: translateX(0%) translateY(-45%);
+    height: 310px;
+
+}
+.place-item:hover img{
+    width: 100%;
+    height: 310px;
+    transition: all 0.5s ease;
+}
+.place-item img{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    position: absolute;
+    margin: 0; 
+    
+}
+.text-place{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    padding: 12px ;
+    background: linear-gradient(to right,rgba(0,0,0,0.4), rgba(255,255,255,0));
+    transform: translateX(-100%) translateY(-70%);
+    
+    transition: all 0.5s ease;
+}
+.nice-place h2{
+    color:#00BFFF ;
+}
+.nice-place span{
+    color: yellow;
+}
+.nice-place p{
+    color: white;
+    margin: 12px 0;
+    font-size: 15px;
+}
+.nice-place button{
+    height: 40px;
+    width: 50%;
+    opacity: 0.4;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding-top: 5px;
+    float: left;
+    
+}
+.nice-place button:hover{
+    opacity: 0.7;
+}
+.nice-place button span{
+    color:black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nice-place h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #00BFFF;
+    position: relative;
+    margin-top: 40px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.nice-place h1::before{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 150px;
+    background-color:#00BFFF ;
+    border-radius: 5px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.place-name h3{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    transform: translateY(1070%) ;
+    letter-spacing: 5px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.place-name h4{
+    color: #FF0000;
+    font-size: 20px;
+    position: absolute;
+    transform:translateX(200%) translateY(1590%) ;
+}
+.place-name span{
+    color: #FFA07A;
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    transform:translateX(-110%) translateY(10%)  ;
+}
+.place-name .Buy-btns{
+    transform:translateX(10px) translateY(332px);
+    max-width: 40%;
+    background-color:white;
+    border: none;
+    opacity: 1;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.our-blog{
+    padding: 3rem 7%;
+}
+.our-blog h1{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.our-blog h1 span{
+    color:#00BFFF ;
+   
+}
+.our-blog h1 span:hover{
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.main-blog{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 700px;
+    
+}
+.iner-blog{
+    flex: 5 5 30rem;
+    margin-right: 5px;
+    
+}
+.iner-blog img{
+    border-radius: 10px;
+    width: 100%;
+    height: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    
+    
+}
+.blog-images img{
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+
+    /* Css footer  */
+    .footer {
+        background-color: rgb(243,243,243);
+        width: 100%;
+        padding-top: 60px;
+    }
+    
+    .footer-container{
+        max-width: 900px;
+        margin:0 auto;
+    }
+    
+    .footer-container__item{
+        text-align: center;
+        width: 100%;
+        color: #191919;
+        line-height: 26px;
+        padding-bottom:40px;
+    }
+    
+    .footer-container__item h4 {
+        padding-bottom: 14px;
+    }
+    
+    .footer-container__item li{
+        margin-bottom: 10px;
+    }
+    .footer-container__item ul {
+        list-style: none;
+    }
+    .footer-container__item ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .footer-container__item ul li a:hover{
+        color:  rgb(171,142,102);
+    }
+    
+    .input-sub{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding-inline: 40px;
+        padding:19px;
+        outline: none;
+        border-radius: 30px ;
+        text-align: center;
+        color:#bbbbbb;
+        font-family: inherit;
+        border: 1px solid #eeeeee;
+        font-size: 16px;
+    }
+    .footer-container__item input:focus{
+        border: 1px solid rgb(171,142,102);
+    }
+    .btn-sub{
+        width: 80%;
+        margin: 0 auto;
+        padding-inline: 40px;
+        padding:19px;
+        border-radius: 30px ;
+        margin-top: 12px;
+        background-color: rgb(171,142,102);
+        color: white;
+        border:none;
+        cursor:pointer;
+        font-family: 'Jost', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+    }
+    .footer-container__item p{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;    
+    }
+    .sosial{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 24px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;  
+    }
+    .sosial a{
+        color: #555;
+        margin: 0 4%;
+    }
+    .sosial a:hover{
+        color:rgb(171,142,102) ;
+    }
+    #Stelina{
+        text-decoration: none;
+        color:rgb(171,142,102) ;
+    
+    }
+    * {
+        box-sizing: border-box;
+      }
+
+.bkok:hover{
+    width: 540px;
+    margin: 5px 5px;
+    position: absolute;
+    opacity: 0.9;
+}
+.bl-ph:hover{
+margin: 5px 5px;
+}
+.bl-ca{
+margin: 5px 5px;
+}
+

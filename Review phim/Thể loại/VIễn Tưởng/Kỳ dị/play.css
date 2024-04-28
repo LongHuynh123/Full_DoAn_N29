@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+
+}
+.clear{
+    clear: both;
+}
+
+#header{
+height: 46px;
+background-color: black ;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+#header .search-button{
+float: right;
+padding: 0 21px;
+}
+
+#header .search-icon{
+    font-size: 20px;
+    color: #ffff;
+    line-height: 46px;
+    
+    
+}
+#header .search-button:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+
+#nav{
+display: inline-block;
+}
+
+#nav, .subnav{
+    list-style-type: none;
+
+}
+
+#nav >li{
+    display:inline-block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav li{
+    
+    position: relative;
+}
+#nav>li>a{
+    color:aliceblue;
+    text-transform: uppercase;
+}
+
+#nav li a{
+  
+    text-decoration:none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav> li:hover> a{
+    color: black;
+    background-color:#cccc;
+}
+
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    
+    
+}
+#nav .subnav a{
+    color: black;
+    padding: 0 16px;
+}
+#nav .subnav> li:hover{
+    color: black;
+    background-color:#cccc;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+/* tieu de */
+.port-full{
+    background-color: #161616;
+    height: 10px;
+    
+}
+.port-full .back{
+    text-align: left;
+    font-size: 16px;
+    margin-left: 2%;
+    margin-top: 40px;
+    padding-top: 50px;
+    color:#9a9a9a;
+    margin-left: 20px;
+}
+.port-full .back a{
+    text-decoration: none;
+    color:#9a9a9a;
+    margin-right: 15px;
+}
+.port-full .back a:hover{
+    color: rgb(255, 153, 0);
+}
+
+
+/* bat dau */
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+.container{
+    background: #f55 url('/Review phim/Thể loại/VIễn Tưởng/Kỳ dị/lỗi phim.png');
+    width: 80%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    color: #fff;
+    text-align: center;
+    background-color: rgba(146, 146, 146, 0.6);
+    padding: 0px 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 500px;
+}
+.text p{
+    font-size: 50px;
+    padding-top: 150px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.detail h1{
+    padding: 20px 10px;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 5px;
+    color: rgb(255, 255, 255); 
+    margin-left: 60px;
+    text-decoration: underline;
+    width: 50%;
+    height: 70px;   
+}
+.detail h2{
+    display: block;
+    padding: 20px 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 5px;
+    color: black;
+    background-color: rgb(255, 153, 0);
+    margin-left: 60px;
+    text-decoration: underline;
+    width: 50%;
+    height: 70px;   
+}
+.detail p{
+    line-height: 1.5;
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+    color: rgb(154, 146, 146) ; 
+    height: 50px;
+    line-height: 1.7;
+    text-align: justify;
+}
+.detail h3 {
+    color:  rgb(20, 106, 156); 
+    margin-left: 70px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.detail h3 button{
+    background-color: #161616;
+    color: #999 ;
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 2px;
+    margin-top: 0;
+    line-height: 1;
+}
+.footer{
+    padding-bottom: 30px;
+    padding-left: 50px;
+    color: #9a9a9a;
+    line-height: 1.7;
+    background-color: #222222;}
+.footer-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.6fr;
+    grid-gap: 70px;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+.footer-wrap .title p{
+    color: rgb(201, 0, 0);
+    font-size: 20px;
+}
+.footer-wrap .title a{
+    color: #9a9a9a;
+    font-size: 16px;
+    text-align: center;
+}
+.title{
+    margin-top: 10px;
+}
+.dieukhoan{
+    margin-left: 30px;
+}
+.dieukhoan ul{
+    margin-top: 8px;
+}
+.dieukhoan a{
+    text-decoration: none;
+    color: #b7b7b7;
+}
+.dieukhoan ul span{
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.contact{
+    margin-right: 20px;
+}
+.wall{
+    height: 200px; 
+    width: 100%;
+    display: block;
+ }
+/*Đánh giá*/
+#dong-gop {
+    background-color: #161616;
+    text-align: left;
+    min-height: 70vh;
+    padding-top: 10px;
+    background-position: center;
+    background-size: cover;
+}
+#dong-gop h2 {
+    padding-left: 5%;
+    color: #b8b8b8;
+    line-height: 1.7;
+}
+#dong-gop h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: black;
+    line-height: 1.7;
+}
+
+#dong-gop ul {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 57%;
+    list-style: none;
+    padding: 0;
+    color: #cccc;
+}
+
+#dong-gop ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+#dong-gop ul li .noi-dung {
+    overflow: hidden;
+}
+
+#dong-gop ul li .noi-dung p {
+    margin-bottom: 5px;
+}
+
+#dong-gop ul li .noi-dung strong {
+    font-weight: bold;
+}
+
+#dong-gop form {
+    padding-left: 5%;
+    margin-top: 10px;
+}
+
+#dong-gop form input {
+    justify-content: center;
+    width: 80%;
+    margin-top: 10px;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #cccc;
+    background-color: black;
+}
+#dong-gop .btn-cmt{
+    background-color: rgb(255, 153, 0); 
+    margin-top: 8px;
+    font-size: 18px;
+    padding: 8px 22px;
+    border: 1px solid rgb(255, 153, 0);
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 71.55%;
+}
+#dong-gop .btn-cmt:hover{
+    transform: scale(0.96);
+    cursor: pointer;
+}

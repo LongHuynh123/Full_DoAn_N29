@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đà Nẵng - Hội AN </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Css/BMT.css">
+    <link rel="stylesheet" href="/Css/tour.css">
+    <link rel="stylesheet" href="/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/dark.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Start header -->
+    <div class="container-fuil" style="background-color: #f3f3f3;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <a class="navbar-brand text-uppercase" href="#"><img src="/assets/img/logoWc.jpg" height="100px" /></a>
+                </div>
+                <div class="col-8">
+                    <nav class="navbar navbar-expand-lg " style="background-color: #f3f3f3;">
+                        <div class="container-fluid">
+                          <a class="navbar-brand " href="/index1.html">WECHOICE</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                                <li class="nav-item lmh-li-item"><a class="nav-link" href="/html/tour.html">TOURISM</a></li>
+                                <li class="nav-item lmh-li-item"><a class="nav-link" href="/Review phim/outs.html">REVIEW FILM </a></li>
+                                <li class="nav-item lmh-li-item"><a class="nav-link" href="/html/Contact.html">CONTACT </a></li>
+                                <li class="nav-item lmh-li-item"><a class="nav-link" href="/Review phim/review.html"></a></li>
+                            </ul>
+                            <div class="d-flex" role="search">
+                                <a class="btn btn-outline-success" href="/html/LOGIN.html">Login</a>
+                             </div>
+                        </div> 
+                              
+                    </nav>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+    <h1 class="tagName" > Tour Tây Nguyên: 3N3Đ Tà Đùng - Buôn Ma Thuột - Thác Draynu  </h1>
+
+    <div class="container mb-5 ">
+        <div class="row">
+          <div class="col-8">
+            <!-- Container for the image gallery -->
+                <div class="container">
+
+                    <!-- Full-width images with number text -->
+                    <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                        <img height="400px" src="/assets/img/voibmt.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                        <img height="400px" src="/assets/img/bmt height.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                        <img height="400px" src="/assets/img/thacdray.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                        <img height="400px" src="/assets/img/KDL-Buon-Don.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                        <img height="400px" src="/assets/img/Bien-ho-Pleiku.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                        <img height="400px" src="/assets/img/bttgcp-1.jpg" style="width:100%">
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    
+                
+                    <!-- Image text -->
+                    <div class="caption-container">
+                    <p id="caption"></p>
+                    </div>
+                
+                    <!-- Thumbnail images -->
+                    <div class="row">
+                    <div class="column">
+                        <img height="100px"  class="demo cursor" src="/assets/img/voibmt.jpg" style="width:100%" onclick="currentSlide(1)" alt="VOi">
+                    </div>
+                    <div class="column">
+                        <img height="100px" class="demo cursor" src="/assets/img/bmt height.jpg" style="width:100%" onclick="currentSlide(2)" alt="Tp.BMT">
+                    </div>
+                    <div class="column">
+                        <img height="100px" class="demo cursor" src="/assets/img/thacdray.jpg" style="width:100%" onclick="currentSlide(3)" alt="Thác Draynu">
+                    </div>
+                    <div class="column">
+                        <img height="100px" class="demo cursor" src="/assets/img/KDL-Buon-Don.jpg" style="width:100%" onclick="currentSlide(4)" alt="Dân tốc Ê-Đê">
+                    </div>
+                    <div class="column">
+                        <img height="100px" class="demo cursor" src="/assets/img/Bien-ho-Pleiku.jpg" style="width:100%" onclick="currentSlide(5)" alt="Hồ Buôn Đôn">
+                    </div>
+                    <div class="column">
+                        <img height="100px" class="demo cursor" src="/assets/img/bttgcp-1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Bảo Tàng Cà phê">
+                    </div>
+                    </div>
+                </div>
+                <h5 class="tagname5"> Điểm nhấn hành trình:</h5>
+                <p>Khám phá trọn vẹn vẻ đẹp của Tây Nguyên trong tour 3N3Đ. Từ hồ Tà Đùng thơ mộng được mệnh danh là 'Vịnh Hạ Long của núi rừng', đến không gian văn hóa của Làng cà phê Trung Nguyên, trải nghiệm thú vị tại Buôn Đôn với nghề săn và thuần dưỡng voi rừng, và cảm nhận sức hút hùng vỹ của thác Dray Nur. Hành trình này hứa hẹn đem lại cho du khách những giây phút thư giãn và nguồn cảm hứng từ thiên nhiên và văn hóa độc đáo của vùng đất này. Cùng WECHOICE khám phá ngay hôm nay!</p>
+                <h5 class="tagname5"> Chương trình tour:</h5>
+                <h4 class="tagname4"> Điểm đón :</h4>
+                <p>22h00: Đón khách tại 367 Tân Sơn, Phường 15, Quận Tân Bình</p>
+                <p>22h15: Đón khách tại Trường Đại Học Hồng Bàng, 03 Hoàng Việt, Phường 4, Quận Tân Bình.</p>
+                <p>22h40: Đón khách tại Nhà Văn Hóa Thanh Niên, 04 Phạm Ngọc Thạch, Phường Bến Nghé, Quận 1.</p>
+                <p>22h50: Đón khách tại Cây xăng Comeco, Ngã 4 Hành Xanh, Phường 21, Quận Bình Thạnh</p>
+                <p>23h40: Đoán khách tại Ngã 3 Sở Sao, Thành phố Thủ Dầu Một, Bình Dương.</p>
+                <h4>ĐÊM NGÀY 1: TP. HỒ CHÍ MINH - TÀ ĐÙNG (VỊNH HẠ LONG TÂY NGUYÊN)</h4>
+                <p>Xe và hướng dẫn viên đón đoàn rời TP Hồ Chí Minh theo QL14 đi Buôn Mê Thuột qua Sóc Bombo, Bù Đăng, đường mòn Hồ Chí Minh.</p>
+                <h4>NGÀY 2: TÀ ĐÙNG - BUÔN MÊ THUỘT (ĂN SÁNG, TRƯA, TỐI)</h4>
+                <p>05h00: Đến Tà Đùng, quý khách dùng điểm tâm sau đó. </p>
+                <p>Quý khách lên thuyền khám phá Vịnh Hạ Long Tây Nguyên - Khu bảo tồn sinh quyển Tà Đùng, gồm 47 ốc đảo lớn nhỏ với diện tích 22.103 ha, trong đó 86,7% là diện tích rừng xanh bạt ngàn.</p>
+                <img class="mb-4" width="100%" src="/assets/img/Tadung.jpg" alt="">
+                <p>Hồ Tà Đùng như mặt gương xanh biếc nổi bật giữa núi rừng Tây Nguyên hoang sơ khiến biết bao du khách đắm say khi đặt chân đến.Quý khách sẽ cảm nhận sự bình lặng, trong lành và thoải mái khi ngồi trên thuyền len lỏi qua những hòn đảo nhỏ nhấp nhô giữa dòng.</p>
+                <p>11h00: Dùng buổi trưa với những món ăn mang đậm chất núi rừng.</p>
+                <p>12h30: Quý khách khám phá KDL Tà Đùng với nhiều điểm check in thú vị và hấp dẫn. Đặc biệt có cơ hội thỏa sức chinh phục “Cầu kính duy nhất tại Tây Nguyên”. Tại đây, du khách có thể cảm nhận được vẻ đẹp hoang sơ tựa bức tranh thiên nhiên tuyệt đẹp ẩn mình dưới ngọn đồi cao su bạt ngàn, cà phê nặng trĩu hạt.</p>
+                <img class="mb-4" height="500px"; width="100%" src="/assets/img/tour-du-lich-ta-dung-checkin-cau-kinh-1.jpg" alt="">
+                <p>Nếu đi vào mùa thu hoạch cà phê thì bạn có thể thấy rõ hơn sự nhộn nhịp của người dân khi thời điểm vào mùa tới, khiến nơi đây sống động, đầy ắp tiếng cười đùa của trẻ em cũng như người lớn lan tỏa khắp các sườn đồi.</p>
+                <p>14h00: Quý khách tiếp tục khởi hành đến với Buôn Mê Thuột.</p>
+                <img class="mb-4" width="100%" src="/assets/img/bmt height.jpg" alt="">
+                <p>17h00: Đến Buôn Mê Thuột về khách sạn nhận phòng nghỉ ngơi</p>
+                <p>18h00: Xe đưa đoàn dùng buổi tối với những món ăn đậm sắc Tây nguyên</p>
+                <p>Tự do khám phá Buôn Mê về đêm. Quý khách đừng quên thưởng thức hương vị café của Phố Núi nhé.</p>
+                <h4>NGÀY 3: BUÔN MÊ THUỘT - BUÔN ĐÔN - BUÔN DÂN TỘC ÊĐÊ (ĂN SÁNG, TRƯA)</h4>
+                <p>07h00: Quý khách dùng điểm tâm sáng, Qúy khách tham quan khu du lịch sinh thái Kotam.</p>
+                <p>Sau đó quý khách đến với “Buôn Làng Dân Tộc ÊĐê (Buôn Akodhong)” khám phá về nét văn hóa dân tộc Êđê.</p>
+                <p>12h00: Quý khách dừng chân nghỉ ngơi và dùng bữa trưa Buôn Đôn.</p>
+                <p>Đến với Buôn Đôn - Thanh Hà, quý khách sẽ được giới thiệu chu đáo về cả văn hóa, phong tục tập quán địa phương, chế độ Mẫu hệ độc đáo qua khu nhà Dài Ê đê dài nhất Tây Nguyên, khu mộ Voi Pak Ku - H’Panh, khu tưởng niệm Vua săn voi.</p>
+                <img class="mb-4" width="100%" src="/assets/img/voibmt.jpg" alt="">
+                <p>Sau đó, quý khách trãi nghiệm lên cầu treo đung đưa lắc lư, cầu treo sẽ đưa bạn đến khu tắm sông, ghềnh đá mát rượi. Hoặc thử sức với khu trò chơi dân gian, đi cầu thăng bằng, bắn nỏ.Hoặc đăng kí cưỡi voi đi dạo lững thững bên bờ sông ngắm trọn vẹn bảy nhánh thác. (Chi phí tự túc)</p>
+                <p>16h00: Khởi hành về lại Buôn Mê Thuột, tham quan chùa Khải Đoan, ngôi chùa lớn và đep nhất xứ Ban Mê, về lại  khách sạn nghỉ ngơi. </p>
+                <img class="mb-4" width="100%" src="/assets/img/chuakd.jpg" alt="">
+                <p>1800: Quý khách tự do khám phá ẩm thực Tây Nguyên.</p>
+                <h4>NGÀY 04: BUÔN MÊ THUỘT - THÁC DRAY NUR - TP.HCM (ĂN SÁNG, TRƯA)</h4>
+                <p>06h00: Dùng điểm tâm, làm thủ tục trả phòng, xe đưa du khách tham quan thác Dray Nur. Đây là một trong những dòng thác hùng vỹ và gắn liền với nhiều huyền thoại nhất Tây Nguyên.</p>
+                <img class="mb-4" width="100%" src="/assets/img/thacdray.jpg" alt="">
+                <p>Đoàn dùng cơm trưa sau đó tiếp tục lộ trình về TP.HCM.                </p>
+                <p>18h30: Đến TP.HCM, xe và hướng dẫn viên đưa du khách về điểm hẹn. Kết thúc tour. Chào Tạm Biệt Và Hẹn Gặp Lại!</p>
+
+
+
+            </div>
+    
+   
+
+
+   
+          <div class="col-4 information " >
+            <h3>Lịch Trình và Giá Tour</h3>
+            <h6>Chọn Lịch Trình và Xem Giá:</h6>
+            <div class="container text-center book mt-4">
+                <div class="row align-items-center date-chose ">
+                  <div class="col-4">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    <input class="date"  id="myID" placeholder="Chọn Ngày Đi">
+                  </div>
+                  <div class="col-4 mb-3 " style="font-size: 20px;">
+                    <i class="ti-arrow-right"></i>
+                    
+                  </div>
+                  <div class="col-4 ">
+                    <span class="material-symbols-outlined ">edit_calendar </span>
+                    <input class="date"  id="myID" placeholder="Chọn Ngày Đến">
+                  </div>
+                  
+                </div>
+              </div>
+              
+              <div class="container text-center">
+                <div class="row g-2 ">
+                  <div class="col-6">
+                    <div class="p-3 text-start" style="font-size: 20px;">Người lớn (> 9 tuổi) :</div>
+                   
+                  </div>
+                  <div class="col-6  text-star quantiti" >
+                    <input id="quantiti " class="mt-3 p-2" type="number" placeholder="Số Lượng " >
+
+                  </div>
+                </div>
+              </div>
+              <div class="container text-center">
+                <div class="row g-2 ">
+                  <div class="col-6">
+                    <div class="p-3 text-start" style="font-size: 20px;"> Trẻ em (6 - 9 tuổi) :</div>
+                  </div>
+                  <div class="col-6  text-star quantiti" >
+                    <input id="quantiti " class="mt-3 p-2" type="number" placeholder="Số Lượng " >
+                  </div>
+                </div>
+              </div>
+              <div class="container text-center">
+                <div class="row g-2 ">
+                  <div class="col-6">
+                    <div class="p-3 text-start" style="font-size: 20px;"> Trẻ em ( < 6 tuổi) :</div>
+                  </div>
+                  <div class="col-6  text-star quantiti" >
+                    <input id="quantiti " class="mt-3 p-2" type="number" placeholder="Số Lượng " >
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-4 ms-4">
+                <p style="font-size: 15px; color: red;" >
+                <i class="ti-info" style="font-size: 20px;"> </i>Liên hệ để xác nhận chỗ
+                </p>
+              
+              </div>
+              <div class="container text-center">
+                <div class="row g-2 ">
+                  <div class="col-6">
+                    <div class="p-3 text-start" style="font-size: 20px;"> Tổng giá tour :</div>
+                  </div>
+                  <div class="col-6  text-star quantiti" >
+                    <p class="p-2 text-start" style="font-size: 35px; color: yellowgreen;"> 7.500.000 VND/Khách</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-0 text-center">
+                  <button onclick="buy()" class="buy">Đặt Tour Ngay</button>
+                  <div class="col-sm-6 col-md-8"></div>
+                <div class="col-6 col-md-4">
+                </div>
+              </div>
+          <!-- End formbuy -->
+              <div class="container comment-form">
+                <div class="head">
+                  <h1>Đánh giá khách hàng</h1>
+                </div>
+                <div><span id="comment">3</span>Đánh Giá</div>
+                <div class="text"><p>Chúng tôi rất sẵn lòng lắng nghe</p></div>
+                <div class="parents"> 
+                  <img src= "/userfull.png">
+                  <div>
+                    <h1>Anh Hùng đại + </h1>
+                    <p>Chuyến đi này thật tuyệt</p>
+                    <div class="engagements"> <img src="/like.png" alt=""><img src="/share3.png" alt=""></div>
+                    <span class="date">13:14:19 15/4/2024</span>
+                  </div>
+               </div>
+               <div class="parents"> 
+                <img src= "/userfull.png">
+                <div>
+                  <h1> Một kiếp đỏ lunnn </h1>
+                  <p>Thật là thư giản. Con người ở đây thật thân thiện  </p>
+                  <div class="engagements"> <img src="/like.png" alt=""><img src="/share3.png" alt=""></div>
+                  <span class="date">20:14:19 17/4/2024</span>
+                </div>
+             </div>
+             <div class="parents"> 
+              <img src= "/userfull.png">
+              <div>
+                <h1> Thần điêu đại bịp </h1>
+                <p> Thật là một nơi đáng sống !!! </p>
+                <div class="engagements"> <img src="/like.png" alt=""><img src="/share3.png" alt=""></div>
+                <span class="date">17:14:19 19/4/2024</span>
+              </div>
+           </div>
+                <div class="comments"></div>
+                <div class="commentbox">
+                  <img src="/assets/img/user.jpg" alt="">
+                  <div class="content">
+                    <h2>Bình luận:</h2>
+                    <input type="text" value="Ẩn danh" class="user">
+                    <div class="comment-input">
+                      <input  type="text" placeholder="Enter comment" class="usercomment">
+                        <div class="buttons">
+                          <button type="submit" disabled id="publish">Gửi bình luận</button>
+                          <div class="notify">
+                            <input type="checkbox" class="notify-input"><span>Nhận thông báo</span>
+                        
+
+                          </div>
+                        </div>
+                       
+                    </div>
+                  </div>
+                           
+                </div>
+                <p class="policy">This site is protected by reCAPTCHA and the Google <a href="">privacy policy</a> and <a href="">terms of service   </a> app ly</p>
+              </div>
+
+              <!-- javascript-comment  -->
+              <script>
+                "use strict";
+
+                const userId = {
+                  name: null,
+                  indentity: null,
+                  image: null,
+                  message: null,
+                  date: null,
+
+                }
+
+                const userComment = document.querySelector(".usercomment");
+                const publishBtn = document.querySelector("#publish");
+                const comments = document.querySelector(".comments");
+                const userName = document.querySelector(".user")
+
+                userComment.addEventListener("input", e =>{
+                  if(!userComment.value) {
+                    publishBtn.setAttribute("disabled","disabled");
+                    publishBtn.classList.remove("abled")
+                  } else{
+                    publishBtn.removeAttribute("disabled");
+                    publishBtn.classList.add("abled") 
+                  }
+                })
+
+
+
+
+                function addPost(){
+                  console.log("The button work!");
+                  if(!userComment.value) return;
+                  userId.name = userName.value;
+                  if(userId.name == "Ẩn danh"){
+                    userId.identity = false;
+                    userId.image = "/user1.png";
+
+                  }else{
+                    userId.identity = true;
+                    userId.image = "/userfull.png"
+                  }
+                  userId.message = userComment.value;
+                  userId.date= new Date().toLocaleString();
+                  let published =
+                  `<div class="parents"> 
+                      <img src= "${userId.image}">
+                      <div>
+                        <h1>${userId.name} </h1>
+                        <p>${userId.message}</p>
+                        <div class="engagements"> <img src="/like.png" alt=""><img src="/share3.png" alt=""></div>
+                        <span class="date">${userId.date}</span>
+                      </div>
+                   </div>`;
+                    
+                    comments.innerHTML += published;
+                    userComment.value=""; 
+
+                    let commentsNum =document.querySelectorAll(".parents").length;
+                    document.getElementById("comment").textContent = commentsNum
+                }
+
+                publishBtn.addEventListener("click",addPost)
+
+
+              </script>
+
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- footer -->
+
+    
+    </div>
+    
+    <div class="container-fuild mt-2">
+      <footer class="footer">
+          <div class="footer-container">
+              <div class="gird">
+                  <div class="row">
+                      <div class="col c-12 m-4 l-3">
+                          <div class="footer-container__item">
+                              <h4>QUICK MENU</h4>
+                              <ul>
+                                  <li><a href="">Home</a></li>
+                                  <li><a href="">Tour</a></li>
+                                  <li><a href="">Film</a></li>
+                                  <li><a href="">About</a></li>
+                                  
+                              </ul>
+                          </div>     
+                      </div>
+                      <div class="col c-0 m-4 l-6">
+                          <div class="footer-container__item">
+                              <h4>NEWSELLETER</h4>
+                              <p>Sign up for our free video course and urban garden inspiration</p>
+                              <input class="input-sub" type="email" name="" id="" placeholder="Your email letter">
+                              <button class="btn-sub" >SUBCRIBE</button>
+                          </div>
+                      </div>
+                      <div class="col c-12 m-4 l-3">
+                          <div class="footer-container__item">
+                              <h4>INFORMATION</h4>
+                              <ul>
+                                  <li><a href="">Tour</a></li>
+                                  <li><a href="">Film ticket</a></li>
+                                  <li><a href="">Contact Us</a></li>
+                                  <li><a href="">Return</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="copyright footer-container__item hidden-mobile">
+                      <div class="sosial">
+                          <a href="">
+                              <i class="fa-brands ti-facebook"></i>
+                          </a>
+                          <a href="">
+                              <i class="fa-brands ti-linkedin"></i>
+                          </a>
+                          <a href="">
+                              <i class="fa-brands ti-instagram"></i>
+                          </a>
+                      </div>
+                      <span>Copyright © 2024 <a id="Stelina" href="">Wechoice</a> . All rights reserved</span>
+                  </div>
+                  
+              </div>
+          </div>
+      </footer>
+  </div>
+  
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- js -->
+
+      <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+      </script>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script>
+        flatpickr("#myID", {});
+      </script>
+      
+       <script>
+       function buy(){
+        swal({
+        title: "ĐẶT TOUR THÀNH CÔNG!",
+        text: "Cảm ơn quý khách!",
+        icon: "success",
+        button: "Đồng ý!",
+      });
+       }
+      </script>
+      <script>
+        function phone(){
+                      swal({
+              text: 'Search for a movie. e.g. "La La Land".',
+              content: "input",
+              button: {
+                text: "Search!",
+                closeModal: false,
+              },
+            })
+            .then(name => {
+              if (!name) throw null;
+            
+              return fetch(`https://itunes.apple.com/search?term=${name}&entity=movie`);
+            })
+            .then(results => {
+              return results.json();
+            })
+            .then(json => {
+              const movie = json.results[0];
+            
+              if (!movie) {
+                return swal("No movie was found!");
+              }
+            
+              const name = movie.trackName;
+              const imageURL = movie.artworkUrl100;
+            
+              swal({
+                title: "Top result:",
+                text: name,
+                icon: imageURL,
+              });
+            })
+            .catch(err => {
+              if (err) {
+                swal("Oh noes!", "The AJAX request failed!", "error");
+              } else {
+                swal.stopLoading();
+                swal.close();
+              }
+            });
+                      
+                    }
+      </script>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+    <form>
+    <div class="mb-3">
+    <label for="recipient-name" class="col-form-label">Recipient:</label>
+    <input type="text" class="form-control" id="recipient-name">
+    </div>
+    <div class="mb-3">
+    <label for="message-text" class="col-form-label">Message:</label>
+    <textarea class="form-control" id="message-text"></textarea>
+    </div>
+    </form>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    </body>
+    </html>
+
+
+</body>
+</html>

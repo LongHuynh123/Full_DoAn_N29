@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+
+}
+.clear{
+    clear: both;
+}
+
+#header{
+height: 46px;
+background-color: black ;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+#header .search-button{
+float: right;
+padding: 0 21px;
+}
+
+#header .search-icon{
+    font-size: 20px;
+    color: #ffff;
+    line-height: 46px;
+    
+    
+}
+#header .search-button:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+
+#nav{
+display: inline-block;
+}
+
+#nav, .subnav{
+    list-style-type: none;
+
+}
+
+#nav >li{
+    display:inline-block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav li{
+    
+    position: relative;
+}
+#nav>li>a{
+    color:aliceblue;
+    text-transform: uppercase;
+}
+
+#nav li a{
+  
+    text-decoration:none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav> li:hover> a{
+    color: black;
+    background-color:#cccc;
+}
+
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    
+    
+}
+#nav .subnav a{
+    color: black;
+    padding: 0 16px;
+}
+#nav .subnav> li:hover{
+    color: black;
+    background-color:#cccc;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+/*menu*/
+#menu{
+    display: flex;
+    justify-content: center;    
+    height: 46px;
+
+}
+  
+#nav-phim{
+    display: inline-block;
+}
+ 
+#nav-phim >li{
+    display:inline-block;
+}
+#nav-phim li:hover .subnav{
+    display: inline-block ;
+}
+
+#nav-phim li{
+    display: inline-block;
+    position: relative;
+    list-style-type:armenian;
+}
+#nav-phim>li>a{
+    color:aliceblue;
+    text-transform: uppercase;
+}
+
+#nav-phim li a{
+    text-decoration:none;
+    line-height: 46px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: block;
+}
+
+#nav-phim> li:hover> a{
+    color: rgb(255, 98, 0);
+}
+
+
+#nav-phim .subnav{
+    display: none;
+    position: absolute;
+    min-width: 520px;
+    top: 100%;
+    left: 0;
+    background-color: #686868;
+}
+#nav-phim .subnav a{
+    color: rgb(255, 255, 255);
+    padding: 0 16px;
+    display: block;
+    width: 120px;
+}
+#nav-phim .subnav a:hover{
+    color: rgb(255, 98, 0);
+}
+#nav-phim .subnav> li:hover{
+    color: black;
+}
+#nav-phim .nav-arrow-down{
+    font-size: 14px;
+}
+/* tieu de */
+.port-full{
+    background-color: #161616;
+    height: 182px;
+    
+}
+
+.bcr-rv{
+    position: absolute;
+    padding-top: 50px;
+    width: 100%;
+    transform: translateY(40px);  
+    position: absolute;
+    height: 200px;
+ 
+}
+.bcr-rv h1{
+    color: coral;
+    font-size: 50px;
+    text-align: center;
+}
+.bcr-rv p{
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+}
+.bcr-rv i{
+    color: #a4a4a4;
+    font-size: 12px;
+    text-align: right;
+}
+/*end tieu de*/
+.row{
+    background-color: #161616;
+    padding-left: 50px;
+    padding-right: 20%;
+    padding-top: 50px;
+}
+.wraper{
+    line-height: 1.7;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.pic{
+    cursor: pointer;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.text{
+    text-decoration: none;
+}
+.text p{
+    text-overflow: ellipsis;
+    cursor: pointer;
+    color: rgb(160, 160, 160);
+}
+.text h1{
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+.text h1:hover{
+    color: aqua;
+}
+.text a {
+    color: #fff ;
+    text-decoration: none;
+}
+.card{
+    display: flex;
+    width: 100%;
+    background-position: 50%;
+    background-size: cover;
+}
+/* phan intro */
+
+.wall{
+    margin-top: 100px;
+    width: 100%;
+}

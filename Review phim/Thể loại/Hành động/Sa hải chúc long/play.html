@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sa hải chúc long</title>
+    <link rel="stylesheet" href="/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/Review phim/Thể loại/VIễn Tưởng/Sa hải chúc long/play.css">
+</head>
+<body>
+    <div id="header">
+        <!-- begin:Nav -->
+        <ul id="nav">
+            <li><a href="/index1.html">Giới thiệu </a></li>
+            <li><a href="/html/tour.html">Trải nghiệm </a></li>
+            <li>
+                <a href="/Review phim/outs.html">
+                    Review Phim
+                </a>
+            </li>
+            <li>
+                <a href="">
+                   CONTACT
+                    <i class="nav-arrow-down ti-angle-down"></i>
+                
+                </a>
+               
+
+            </li>
+        </ul>
+        <!-- End Nav -->
+        
+        <!-- begin search -->
+            <div class="search-button">
+                <i class="search-icon ti-search"></i>
+            </div>
+    </div>
+            <div class="clear"></div>
+
+        <!-- baat dau tiu de -->
+    
+            <div class="port-full">
+            </div>
+        <!-- end tiu de -->
+
+
+        <!-- bat dau -->
+        <div style="background-color: #161616;">
+            <div class="block">
+                <div class="container">
+                    <div class="text">
+                        <p><span class="ti-close"></span></p>
+                        <h1>Phim sẽ sớm cập nhật cho bạn!!!</h1>
+                    </div>
+                </div>
+        
+            </div>
+        <div class="detail">
+        <h1> Sa Hải Chúc Long </h1>
+<p>Sa Hải Chúc Long (Guardian Of The Palace) xoay quanh thời kỳ hỗn chiến của quân phiệt và một đại dịch đang lan tràn trong thị trấn Hắc Thủy. Để chữa trị bệnh dịch, nhóm người gồm Thiên Nhai, Vô Niệm và Cửu Nguyệt đã bắt đầu cuộc hành trình tìm kiếm bảo thạch Kim Nguyệt. Tuy nhiên, không chỉ có nhóm này muốn sở hữu kho báu này, mà còn có quân phiệt Phùng Bội Xuyên với ý đồ chiếm lấy nó để làm của riêng. Trải qua nhiều khó khăn và hiểm nguy, nhóm Thiên Nhai đã cuối cùng đánh bại Phùng Bội Xuyên và giành lại bảo thạch, từ đó cứu lấy dân chúng khỏi căn bệnh đáng sợ.</p>
+        <h3 > Từ khóa:
+            <button> Sa Hải Chúc Long</button>
+            <button>Guardian Of The Palace</button>
+            <button>Sa Hải Chúc Long vietsub</button>
+            <button>Sa Hải Chúc Long full</button>
+        </h3>
+    </div>
+    <p style="font-size: 30px;">___________________________________________________________________________</p>
+
+    </div>
+    <!--Đánh giá-->
+<div id="dong-gop">
+    <h2>Bình luận</h2>
+    <h3></h3>
+    <form>
+        <input type="text" id="name" placeholder="Tên của bạn...">
+        <input type="text" id="comment" placeholder="Tham gia bình luận...">
+        <p><button class="btn-cmt" type="submit">Gửi</button></p>
+    </form>
+    <ul></ul>
+</div>
+    
+<script>
+    const form = document.querySelector("#dong-gop form");
+    const ul = document.querySelector("#dong-gop ul");
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const name = "@"+document.querySelector("#name").value; 
+        const comment = document.querySelector("#comment").value;
+        const currentDate = new Date();
+        const timestamp = currentDate.toLocaleString();
+        const li = document.createElement("li");
+        li.innerHTML = `
+        <div class="noi-dung">
+                <p><strong>${name}</strong>: ${timestamp}</p>
+                <p><em style="margin-left: 20px;">${comment}</em></p>
+            </div>
+        `;
+        ul.appendChild(li);
+        document.querySelector("#name").value = "";
+        document.querySelector("#comment").value = "";
+    });
+</script>
+    <div class="footer">
+        <div class="footer-wrap">
+            <div class="title">
+                <p>WE CHOICE <a>- là một website review phim và du lịch.</a> </p>
+            </div>
+            <div class="dieukhoan">
+                <h1>Giới thiệu</h1>
+                <li>Điều khoản chung</li>
+                <li>Vấn đề bảo mật</li>
+                <li>Liên hệ chúng tôi</li>
+                <ul>
+                    <a href="https://www.facebook.com/nhi.tranyen.39566/"><span class="ti-facebook"></span></a>
+                    <a href="https://www.linkedin.com/in/y%E1%BA%BFn-nhi-tr%E1%BA%A7n-69386b295/"><span class="ti-linkedin"></span></a>
+                    <a href="https://www.instagram.com/_nhitr?igsh=MTlsOTlveGl2dTAwNA=="><span class="ti-instagram"></span></a>
+                    <a href="https://www.pinterest.com/tranyennhi10060035/"><span class="ti-pinterest"></span></a>
+                </ul>
+            </div>
+            <div class="contact">
+                <h1>Chăm sóc khách hàng</h1>
+                <li><i class="ti-mobile"> </i>Phone:+8412888888</li>
+                <li><i class="ti-email">  </i>WechoiceK17@gmail.com</li>
+                <li><i class="ti-location-pin"></i> Giờ làm việc: 8:00-22:00 (Tất cả các ngày bao gồm cả Lễ Tết)</li>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>

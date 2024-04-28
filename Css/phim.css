@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+
+}
+.clear{
+    clear: both;
+}
+
+#header{
+height: 46px;
+background-color: black ;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+#header .search-button{
+float: right;
+padding: 0 21px;
+}
+
+#header .search-icon{
+    font-size: 20px;
+    color: #ffff;
+    line-height: 46px;
+    
+    
+}
+#header .search-button:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+
+#nav{
+display: inline-block;
+}
+
+#nav, .subnav{
+    list-style-type: none;
+
+}
+
+#nav >li{
+    display:inline-block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav li{
+    
+    position: relative;
+}
+#nav>li>a{
+    color:aliceblue;
+    text-transform: uppercase;
+}
+
+#nav li a{
+  
+    text-decoration:none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav> li:hover> a{
+    color: black;
+    background-color:#cccc;
+}
+
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    
+    
+}
+#nav .subnav a{
+    color: black;
+    padding: 0 16px;
+}
+#nav .subnav> li:hover{
+    color: black;
+    background-color:#cccc;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+/* tieu de */
+.port-full{
+    background-color: #161616;
+    height: 300px;
+    
+}
+
+.bcr-rv{
+    padding-top: 80px;
+    background-color: #161616;    width: 100%;
+    transform: translateY(40px);  
+    position: absolute;
+    height: 270px;
+ 
+}
+.bcr-rv h1{
+    font-size: 50px;
+    text-align: left;
+    margin-right: 5px;
+    color: white; 
+    margin-left: 70px;
+}
+
+.bcr-rv p{
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+/* bat dau */
+.wrap{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-gap: 10px;
+    padding: 20px 10px;
+    margin-left: 50px;
+    margin-right: 250px;
+}
+.thongtin{
+    background-color: #161616;
+}
+.thongtin .name-phim{
+    color: white;
+    line-height: 1.7; /*giãn dòng*/
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.thongtin p{
+    line-height: 1.7;
+    color: rgb(194, 193, 193);
+    font-weight: bold;
+}
+a {color: rgb(27, 184, 228);}
+.thongtin ul{
+    margin-left: 20px;
+}
+.time{
+    text-decoration: underline; 
+    color: rgb(211, 209, 209);
+}
+
+.pic{
+    width: 100%;
+    cursor: pointer;
+    height:390px; 
+    width: 290px;  
+    margin-left: 10px; 
+    display: block;
+}
+
+.btn{
+    font-size: 20px;
+    background: red;
+    border: none; 
+    outline: none; 
+    color:white;
+    padding: 10px 40px; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    margin-right: 13px;
+    margin-top: 10px; 
+    transition:0.2s; 
+    cursor:pointer;
+}
+.btn:hover{ 
+    transform: scale(0.9);
+    background: rgb(167, 167, 167);
+}
+
+.detail h1{
+    padding: 20px 10px;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 5px;
+    color: rgb(255, 255, 255); 
+    margin-left: 60px;
+    text-decoration: underline;
+    width: 25%;
+    height: 70px;   
+}
+.detail h2{
+    display: block;
+    padding: 20px 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 5px;
+    color: black;
+    background-color: rgb(255, 153, 0);
+    margin-left: 60px;
+    text-decoration: underline;
+    width: 50%;
+    height: 70px;   
+}
+.detail p{
+    line-height: 1.5;
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+    color: rgb(154, 146, 146) ; 
+    height: 120px;
+    line-height: 1.7;
+
+}
+.detail h3 {
+    color:  rgb(20, 106, 156); 
+    margin-left: 60px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.trailer-video{
+    margin-left: 100px;
+}
+.wall{
+    width: 100%;
+}
